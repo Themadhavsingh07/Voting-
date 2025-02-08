@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bharti Vote Login</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .login-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #000; /* Black text for heading */
+        }
+
+        .bharti-vote {
+            font-size: 2em;
+            color: #fff; /* White text */
+            background: linear-gradient(to right, #ec8033, #186d11); /* Orange to Red gradient */
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .flag-container {
+            width: 150px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        .flag-stripe {
+            height: 50px;
+            width: 100%;
+        }
+
+        .saffron {
+            background-color: #FF9933; /* Saffron */
+        }
+
+        .white {
+            background-color: #fff; /* White */
+        }
+
+        .green {
+            background-color: #138808; /* Green */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="login-container">
+        <div class="flag-container">
+            <div class="flag-stripe saffron"></div>
+            <div class="flag-stripe white"></div>
+            <div class="flag-stripe green"></div>
+        </div>
+        <h1 class="bharti-vote">Bharti Vote</h1>
+        <h2>One Man One Vote</h2>
+        <form>
+            <label for="idno">ID No:</label>
+            <input type="text" id="idno" name="idno" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <a href="logint.html">Login</a>
+        </form>
+
+        <p><a href="login.html">Forget Password</a></p>
+    </div>
+</body>
+</html>
